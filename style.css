@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0E2E47;
+    background: #fdfdfd;
+}
+
+header.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://picsum.photos/1200/600?community') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    padding: 12px 24px;
+    background: #D3542A;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #F4C542;
+    color: #0E2E47;
+}
+
+.btn.hire {
+    background: #2E7D32;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about, .services, .contact {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services {
+    background: #f9f9f9;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box {
+    background: white;
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.service-box h3 {
+    color: #2E7D32;
+}
+
+.contact a {
+    color: #D3542A;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #0E2E47;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #D3542A;
+}
+
+footer {
+    background: #0E2E47;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header.hero {
+        padding: 60px 15px;
+    }
+
+    header .logo {
+        width: 120px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        max-width: 90%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+}
