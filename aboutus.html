@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us • UNI Freelancer</title>
+    <meta name="description" content="UNI Freelancer is a youth-led initiative in Kibera training and engaging marginalized youth in digital work like data entry and M&E, restoring dignity and driving impact." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="About • UNI Freelancers" />
+    <meta property="og:description" content="Youth-led digital work hub in Kibera empowering young people through dignified online jobs and skills." />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* Simple background texture */
+      .noise {
+        position: relative;
+      }
+      .noise:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(rgba(0,0,0,.05) 1px, transparent 1px);
+        background-size: 3px 3px;
+        opacity: .15;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 antialiased">
+    <!-- Top Bar -->
+    <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-200">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <a href="/" class="flex items-center gap-2">
+            <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-neutral-900 text-white font-bold">U</span>
+            <span class="font-semibold tracking-tight">UNI Freelancers</span>
+          </a>
+          <nav class="hidden md:flex items-center gap-6 text-sm">
+            <a href="/index.html.html" class="hover:text-neutral-600">Home</a>
+            <a href="#aboutus.html" class="hover:text-neutral-600">About</a>
+            <a href="/services.html" class="hover:text-neutral-600">Services</a>
+            <a href="/membership.html" class="px-3 py-1.5 rounded-full bg-neutral-900 text-white hover:bg-neutral-800">Become a Member</a>
+            <a href="#contact" class="hover:text-neutral-600">Contact</a>
+          </nav>
+          <button class="md:hidden inline-flex items-center justify-center rounded-xl border border-neutral-300 px-3 py-2" aria-label="Open menu" onclick="document.getElementById('mnav').classList.toggle('hidden')">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+        <div id="mnav" class="md:hidden hidden pb-4">
+          <div class="flex flex-col gap-3 text-sm">
+            <a href="/index.html.html" class="hover:text-neutral-600">Home</a>
+            <a href="#aboutus.html" class="hover:text-neutral-600">About</a>
+            <a href="/services.html" class="hover:text-neutral-600">Services</a>
+            <a href="/membership.html" class="hover:text-neutral-600">Become a Member</a>
+            <a href="#contact" class="hover:text-neutral-600">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576381437642-26b70a444094?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-25"></div>
+      <div class="relative noise">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+          <div class="max-w-3xl">
+            <p class="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-neutral-600 bg-white/70 backdrop-blur px-3 py-1 rounded-full border border-neutral-200">Youth-led • Kibera • Digital Work</p>
+            <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">About UNI Freelancers</h1>
+            <p class="mt-4 text-lg text-neutral-700">We are a youth-led hub in Kibera empowering marginalized young people with digital skills and dignified work—connecting local talent with real opportunities in data entry and monitoring & evaluation.</p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a href="#contact" class="inline-flex items-center justify-center rounded-xl bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800">Partner with Us</a>
+              <a href="/membership.html" class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 font-medium hover:bg-neutral-100">Become a Member</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story & Problem/Solution -->
+    <section id="about" class="py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-7">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Our Story</h2>
+          <p class="mt-4 text-neutral-700">Growing up in Kibera, we saw brilliant young people full of potential but trapped by unemployment, poverty, and lack of opportunity. Seven transformative years at ChezaCheza Dance Foundation taught our founder the value of discipline, community, and empowerment—planting the seed for what later became <span class="font-semibold">UNI Freelancer</span>.</p>
+          <p class="mt-4 text-neutral-700">Today, UNI Freelancers trains and engages youth in digital work—especially data entry and M&amp;E tasks—skills that are in high demand yet often inaccessible to young people from informal settlements. We restore confidence while creating dignified income.</p>
+        </div>
+        <div class="lg:col-span-5 space-y-8">
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold text-lg">The Problem</h3>
+            <p class="mt-2 text-neutral-700">Youth in Kibera lack meaningful work opportunities. Meanwhile, many organizations struggle to manage their data effectively.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold text-lg">Our Solution</h3>
+            <p class="mt-2 text-neutral-700">We connect these realities by equipping youth with market-ready digital skills and delivering affordable, reliable data services for community organizations. A challenge becomes a solution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision & Differentiator -->
+    <section class="py-16 sm:py-20 bg-gradient-to-b from-neutral-100 to-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-7">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Why UNI Freelancers</h2>
+          <p class="mt-4 text-neutral-700">UNI Freelancers deserves recognition because it represents the <span class="italic">voice, resilience, and potential</span> of marginalized youth. Our model tackles unemployment by building digital capacity and connecting youth to dignified work, while supporting organizations with affordable data management.</p>
+          <p class="mt-4 text-neutral-700"><span class="font-semibold">What makes us unique:</span> we are not just for youth—<span class="font-semibold">we are led by youth</span>. That means relevance, empathy, and sustainability are built-in.</p>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold text-lg">Future Vision (3–5 Years)</h3>
+            <ul class="mt-3 space-y-2 text-neutral-700 list-disc pl-5">
+              <li>Become a recognized hub for digital work in Kibera and a replicable model for other communities.</li>
+              <li>Train and employ <span class="font-semibold">500+ youth</span>.</li>
+              <li>Expand partnerships with local and international organizations.</li>
+              <li>Develop a digital platform connecting youth to data entry and M&amp;E opportunities.</li>
+              <li>Invest in equipment, connectivity, and a functional community workspace.</li>
+              <li>Strengthen training to keep pace with evolving digital skills.</li>
+              <li>Continuously adapt to community needs to remain inclusive and impactful.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Highlights -->
+    <section class="py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Impact So Far</h2>
+        <p class="mt-3 text-neutral-700">We are growing steadily and responsibly. Here are a few highlights:</p>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <p class="text-4xl font-extrabold">13+</p>
+            <p class="mt-1 text-sm text-neutral-600">Youth trained & engaged to date</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <p class="text-4xl font-extrabold">50%+</p>
+            <p class="mt-1 text-sm text-neutral-600">Women & girls participation target</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <p class="text-4xl font-extrabold">100%</p>
+            <p class="mt-1 text-sm text-neutral-600">Youth-led governance & operations</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <p class="text-4xl font-extrabold">24/7</p>
+            <p class="mt-1 text-sm text-neutral-600">Commitment to quality & timely delivery</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder Role -->
+    <section class="py-16 sm:py-20 bg-neutral-900 text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Leadership with Lived Experience</h2>
+          <p class="mt-4 text-neutral-200">As the Founder, Kelvin Juma leads the vision and day-to-day operations—from training and mentoring youth in digital skills to building partnerships and ensuring service quality. Drawing from his journey growing up in Kibera and seven years as a ChezaCheza student, he motivates youth to become not just beneficiaries but <span class="font-semibold">changemakers</span>.</p>
+          <ul class="mt-4 space-y-2 text-neutral-300 list-disc pl-5">
+            <li>Training & mentorship in data entry and M&amp;E basics</li>
+            <li>Partnership building & proposal writing</li>
+            <li>Project coordination & fundraising</li>
+            <li>Quality assurance & delivery management</li>
+          </ul>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-6">
+            <h3 class="font-semibold text-lg">Call to Partners</h3>
+            <p class="mt-2 text-neutral-200">We collaborate with NGOs, CBOs, social enterprises, researchers, and businesses seeking trustworthy data entry and M&amp;E support.</p>
+            <div class="mt-4 flex flex-wrap gap-3">
+              <a href="#contact" class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-neutral-900 font-medium hover:bg-neutral-100">Hire Our Team</a>
+              <a href="/membership.html" class="inline-flex items-center justify-center rounded-xl border border-white/20 px-5 py-3 font-medium hover:bg-white/10">Support / Volunteer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Our Values</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold">Dignity</h3>
+            <p class="mt-2 text-neutral-700">Every young person deserves respectful work that pays fairly and builds confidence.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold">Excellence</h3>
+            <p class="mt-2 text-neutral-700">We deliver accurate, timely data services backed by training and QA processes.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
+            <h3 class="font-semibold">Community</h3>
+            <p class="mt-2 text-neutral-700">We grow together—youth helping youth, and partners investing in local talent.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-12 bg-neutral-100 border-y border-neutral-200">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h3 class="text-xl font-bold tracking-tight">Ready to collaborate?</h3>
+          <p class="mt-1 text-neutral-700">Let’s co-create opportunities for youth while strengthening your data operations.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center justify-center rounded-xl bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800">Start a Conversation</a>
+          <a href="/membership.html" class="inline-flex items-center justify-center rounded-xl border border-neutral-300 px-5 py-3 font-medium hover:bg-neutral-100">Join as a Member</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-6">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Contact Us</h2>
+          <p class="mt-3 text-neutral-700">Based in Kibera, Nairobi • Serving organizations across Kenya & beyond</p>
+          <div class="mt-6 space-y-3 text-neutral-700">
+            <p><span class="font-semibold">Email:</span> <a href="mailto:unifreelancerscompany@gmail.com" class="underline hover:no-underline">unifreelancerscompany@gmail.com</a></p>
+            <p><span class="font-semibold">Phone/WhatsApp:</span> <a href="tel:+254" class="underline hover:no-underline">+254746917160</a> <span class="text-neutral-500">+254746917160</span></p>
+            <p><span class="font-semibold">Social:</span> @uni_freelancerscompany <span class="text-neutral-500">https://www.instagram.com/unifreelancers.company/?hl=en</span></p>
+          </div>
+        </div>
+        <div class="lg:col-span-6">
+          <form class="p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm" name="contact" netlify>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium">Full Name</label>
+                <input type="text" name="name" required class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-neutral-900" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Email</label>
+                <input type="email" name="email" required class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-neutral-900" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium">Organization (optional)</label>
+                <input type="text" name="organization" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-neutral-900" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium">How can we help?</label>
+                <textarea name="message" rows="4" required class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-neutral-900"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="mt-4 inline-flex items-center justify-center rounded-xl bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t border-neutral-200 py-10">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-neutral-600">© <span id="year"></span> UNI Freelancer. All rights reserved.</p>
+        <nav class="text-sm flex items-center gap-4">
+          <a href="/privacy.html" class="hover:text-neutral-800">Privacy</a>
+          <a href="/terms.html" class="hover:text-neutral-800">Terms</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
